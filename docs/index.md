@@ -35,8 +35,6 @@ tracing, package export, and extension points.
   from `agentnet`.
 - [Release Candidate](release-candidate.md): run the Milestone 20 validation,
   benchmark, build, and credential-gated publish checks.
-- [GitHub Publishing](github-publishing.md): create, authenticate, push, and
-  troubleshoot the private GitHub repository.
 
 ## Local Validation
 
