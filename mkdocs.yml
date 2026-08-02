@@ -1,0 +1,17 @@
+site_name: AgentNet
+docs_dir: docs
+nav:
+  - Home: index.md
+  - Quickstart: quickstart.md
+  - Architecture Guide: architecture.md
+  - Training Guide: training.md
+  - Topology Search Guide: topology-search.md
+  - Distributed Runtime Guide: distributed-runtime.md
+  - MCP Guide: mcp.md
+  - LangSmith Guide: langsmith.md
+  - Package Export Guide: package-export.md
+  - Plugin Guide: plugins.md
+  - Enterprise Guide: enterprise.md
+  - API Reference: api-reference.md
+  - Release Candidate: release-candidate.md
+  - GitHub Publishing: github-publishing.md
