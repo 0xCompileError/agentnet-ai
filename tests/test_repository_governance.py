@@ -10,9 +10,10 @@ def test_codeowners_protects_repository_and_workflows() -> None:
         if line.strip() and not line.lstrip().startswith("#")
     }
 
-    assert "* @0xCompileError" in entries
-    assert "/.github/ @0xCompileError" in entries
-    assert "/.github/workflows/ @0xCompileError" in entries
+    owners = "@0xCompileError @gotcivvysvo7"
+    assert f"* {owners}" in entries
+    assert f"/.github/ {owners}" in entries
+    assert f"/.github/workflows/ {owners}" in entries
 
 
 def test_validate_job_runs_for_pull_requests() -> None:

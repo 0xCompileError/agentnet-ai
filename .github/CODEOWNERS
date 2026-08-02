@@ -1,6 +1,6 @@
 # Every change requires approval from the repository owner.
-* @0xCompileError
+* @0xCompileError @gotcivvysvo7
 
 # Keep repository policy and release automation owner-controlled.
-/.github/ @0xCompileError
-/.github/workflows/ @0xCompileError
+/.github/ @0xCompileError @gotcivvysvo7
+/.github/workflows/ @0xCompileError @gotcivvysvo7
